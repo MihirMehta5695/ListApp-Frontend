@@ -1,0 +1,56 @@
+body, html
+{
+    height     : 100%;
+    overflow-x : hidden;
+    overflow-y : hidden;
+}
+
+.container
+{
+    height          : 90%;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    padding         : 25%;
+}
+
+#error-container
+{
+    /*visibility: hidden;*/
+    color        : #761c19;
+    font-size    : large;
+    margin-left  : 40%;
+    margin-right : 40%;
+}
+
+#form-bg
+{
+    padding          : 10%;
+    background-image : url("../images/form-bg.jpg");
+    align-items      : center;
+}
+
+#header-bg
+{
+    z-index         : 1;
+    height          : 10%;
+    width           : 100%;
+    background-size : cover;
+    background      : url("../images/header-bg.jpg") no-repeat 100% 100%;
+
+}
+
+#main-bg
+{
+    background-image : url("../images/login-bg.jpg");
+}
+
+#success-container
+{
+    /*visibility: hidden;*/
+    color        : #a6e1ec;
+    font-size    : large;
+    margin-left  : 40%;
+    margin-right : 40%;
+}
+

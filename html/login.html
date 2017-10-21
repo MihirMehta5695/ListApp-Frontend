@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset = "utf-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1">
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+	<link rel = "stylesheet" href = "../lib/bootstrap.css">
+	<script src = "../lib/jquery.js"></script>
+	<script src = "../js/myjs.js"></script>
+	<!--&lt;!&ndash;<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>&ndash;&gt;-->
+	<link href = "../css/my.css" rel = "stylesheet">
+</head>
+
+
+<body id = "main-bg">
+
+<!--Header Image-->
+<div id = "header-bg">
+</div>
+
+<!--Main Container for login page-->
+<div class = "container">
+	
+	<!--Form to send data back and forth server using json-->
+	<form id = "form-bg" action = "#">
+		
+		<!--If login is unsuccessful-->
+		<div id = "error-container">Error</div>
+		<div id = "success-container">Success</div>
+		<div class = "input-group">
+			<span class = "input-group-addon"><i class = "glyphicon glyphicon-user"></i></span>
+			<input id = "email" type = "text" class = "form-control" name = "email" placeholder = "Email">
+		</div>
+		<div class = "input-group">
+			<span class = "input-group-addon"><i class = "glyphicon glyphicon-lock"></i></span>
+			<input id = "password" type = "password" class = "form-control" name = "password" placeholder = "Password">
+		</div>
+		<br>
+		<div class = "row">
+			
+			<div class = "col-xs-6">
+				<button class = "btn btn-warning btn-block" id = "login-btn">Login</button>
+			</div>
+			<div class = "col-xs-6">
+				<button class = "btn btn-success btn-block">Register</button>
+			</div>
+		
+		</div>
+	</form>
+
+</div>
+
+</body>
+</html>
+
